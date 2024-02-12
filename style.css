@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    line-height: 1.2;
+}
+
+.container{
+    margin: 30px auto;
+    max-width: 400px;
+    padding: 80px;
+}
+
+.qr-code-wrap{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.qr-code-wrap img{
+    width: 30vh;
+    border-radius: 10px;
+}
+
+.qr-code-wrap h2,
+.qr-code-wrap p{
+    text-align: center;
+    margin: 10px;
+}
+
+.qr-code-wrap p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
